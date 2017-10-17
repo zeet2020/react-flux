@@ -1,0 +1,37 @@
+
+
+img#cover {
+    
+    height: 350px;
+    width:100%;
+    
+}
+
+
+
+
+audio { margin:0 15px 0 14px; width:97%; }
+#mainwrap { box-shadow:0 0 6px 1px rgba(0,0,0,.25); }
+#audiowrap {  margin:0 auto; }
+#plwrap { margin:0 auto; }
+#tracks { position:relative; text-align:center; }
+#nowPlay { display:inline; }
+#npTitle { margin:0; padding:21px; text-align:right; }
+#npAction { padding:21px; position:absolute; }
+#plList { margin:0;
+padding-left: 10px;
+}
+#plList li {  cursor:pointer; display:block; margin:0; padding:21px 0; 
+padding-left: 20px;
+}
+#plList li:hover { background-color:#FBFBFB; }
+.plItem { position:relative; }
+.plTitle { left:50px; overflow:hidden; position:absolute; right:65px; text-overflow:ellipsis; top:0; white-space:nowrap; }
+.plNum { padding-left:21px; width:25px; }
+.plLength { padding-left:21px; position:absolute; right:21px; top:0; }
+.plSel,.plSel:hover { background-color:#FBFBFB!important; cursor:default!important; }
+a[id^="btn"] {  color:#C8C7C8; cursor:pointer; display:inline-block; font-size:50px; margin:0; padding:21px 27px; text-decoration:none; }
+a[id^="btn"]:last-child { margin-left:-4px; }
+a[id^="btn"]:hover,a[id^="btn"]:active { background-color:#FBFBFB; }
+a[id^="btn"]::-moz-focus-inner { border:0; padding:0; }
+
